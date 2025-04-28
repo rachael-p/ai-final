@@ -5,7 +5,7 @@ This project currently allows users to walk through the solving process for two 
 
 
 
-## Usage Guide
+### Usage Guide
 1. Open the page at https://rachael-p.github.io/ai-final/.
 2. Select the CSP problem type you want to visualize:
     - Map Coloring: Regions connected by edges must be colored differently.
@@ -17,7 +17,8 @@ This project currently allows users to walk through the solving process for two 
 5. Click "Next Step" to progress through the solver’s decisions.
 6. When the solution is found, a Restart button will appear to allow resetting.
 
-## Notes
+
+### Notes
 Currently, the visualizations only include two hard-coded CSPs, but future work can include more options and/or allow users to change parameters (ex. number of nodes, size of board, customized domains). In addition, I currently use just the basic HTML UI elements, but UI libraries can be incorporated in the future for a more polished look. 
 
 Created by Rachael Pei
