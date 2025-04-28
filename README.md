@@ -8,19 +8,19 @@ This project currently allows users to walk through the solving process for two 
 ## Usage Guide
 1. Open the page at https://rachael-p.github.io/ai-final/.
 2. Select the CSP problem type you want to visualize:
-    - Map Coloring: Regions connected by edges must be colored differently.
+    - Map Coloring: Regions connected by edges (neighbors) must be colored differently.
     - N-Queens: Queens placed on a chessboard must not be able to attack each other.
 3. Choose solving settings:
     - Solving Method (pure backtracking or with forward checking)
     - Enable/disable MRV and LCV
 4. Click "Start Visualization" to begin.
 5. Click "Next Step" to progress through the solver’s decisions.
-6. When the solution is found, a Restart button will appear to allow resetting.
+6. A reset will appear when the CSP is solved or if the solver finds that a solution is not possible.
 
 ----------------------------------------------------------------------------------------------------------------
 
 ## Notes
-Currently, the visualizations only include two hard-coded CSPs, but future work can include more options and/or allow users to change parameters (ex. number of nodes, size of board, customized domains). In addition, I currently use just the basic HTML UI elements, but UI libraries can be incorporated in the future for a more polished look. 
+Currently, the visualizations only include two hard-coded CSPs, but future work can include more options and/or allow users to change parameters (ex. number of nodes, size of board, customized domains). In addition, I currently only use basic HTML UI elements, but UI libraries can be incorporated in the future for a more polished look. 
 
 ----------------------------------------------------------------------------------------------------------------
 
